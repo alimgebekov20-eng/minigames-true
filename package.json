@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
+    "build": "echo \"No build step required\"",
     "start": "node server.js"
   },
   "dependencies": {
@@ -10,5 +11,8 @@
     "socket.io": "^4.7.2",
     "lowdb": "^6.1.0",
     "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
